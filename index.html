@@ -1,0 +1,405 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HotelMania</title>
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body class="font-PlusJakarta">
+    <header class="h-full lg:h-screen">
+        <!-- navbar goes here-->
+        <nav class="w-full p-1 fixed top-0 shadow-md bg-white z-10">
+            <!--flex container-->
+            <div class="container py-3 flex items-center justify-between">
+              <!-- logo-->
+              <div class="shadow-2xl">
+                <h1 class="font-bold text-xl text-[#18262D]" href=""><span class="underline decoration-[#18262D] text-[#18262D]">HOTEL</span><span class="underline decoration-[#F2A852] text-[#F2A852]">MANIA</span>
+                </h1>
+              </div>
+              <!-- top menu-->
+              <ul class="hidden md:flex space-x-10 text-[#2D3540] font-medium text-sm uppercase">
+                  <li class="hover:text-[#F5A950]">
+                    <a href="#">HOME</a>
+                  </li>
+                  <li class="hover:text-[#F5A950]">
+                    <a href="#service">SERVICES</a>
+                  </li>
+                  <li class="hover:text-[#F5A950]">
+                    <a href="#about">ABOUT US</a>
+                  </li>
+                  <li class="hover:text-[#F5A950]">
+                    <a href="#contact">CONTACT US</a>
+                  </li>
+              </ul>
+              <!-- button-->
+               <div class="hidden md:block">
+              <button class="bg-[#F4AA51] px-4 py-3 rounded-full shadow-2xl font-bold text-white  hover:border-[#F4AA51] hover:bg-white hover:text-[#F5A950]" type="button">Contact Us</button>
+            </div>
+             <!-- hamburger icon-->
+          <div id="hamburger" class="space-y-1 cursor-pointer z-20 md:hidden">
+            <div class="w-6 h-0.5 bg-[#F4AA51]"></div>
+            <div class="w-6 h-0.5 bg-[#F4AA51]"></div>
+            <div class="w-6 h-0.5 bg-[#F4AA51]"></div>
+          </div>
+        </div>
+        <div class="md:hidden">
+            <!-- hamburger menu-->
+            <ul id="menu" class="hidden container bg-[#F4AA51] shadow-2xl shadow-white absolute left-0 top-10 w-full pt-10 rounded-b-3xl text-sm font-black  text-white space-y-10 text-left">
+                <li class="">
+                    <a href="#">HOME</a>
+                  </li>
+                  <li class="">
+                    <a href="#service">SERVICES</a>
+                  </li>
+                  <li class="">
+                    <a href="#about">ABOUT US</a>
+                  </li>
+                  <li class="">
+                    <a href="#contact">CONTACT US</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- intro section-->
+        <section class="pt-5 md:pt-10 relative">
+            <div class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28">
+               <!--content-->
+               <div class="flex flex-1 flex-col items-center lg:items-start">
+               <h2  class="text-[#DEBF8D] font-bold leading-5 text-base tracking-wide text-center lg:text-left mb-6">FIND YOUR DREAM HOTEL</h2>
+                <h1 class="text-[#18262D] font-bold text-6xl text-center lg:text-left mb-6 ">Your <span class="text-[#F2A852]"> Dream <br> </span> Hotel is Waiting <br> for You!</h1>
+                <p class="text-[#575757] font-semibold text-base text-center lg:text-left mb-6">Find Hotels, rooms and Houses for your stay <br> all around the globe and make your trips <br> more exciting.... </p>
+                <!--form-->
+                <div class="bg-gray-50 mb-6 shadow-2xl flex items-center space-x-2 mt-5 relative md:left-5 md:py-3 py-1 md:px-5 px-2  rounded-full md:w-[110%]" data-aos="zoom-in">
+                    <div class="border-r-2 border-r-gray-500 flex">
+                      <span class="text-gray-500 pr-2"><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <input type="text" placeholder="Check-in Date" class="focus:outline-none bg-transparent placeholder:text-sm">
+                </div>
+                  <div class="bg-transparent w-full justify-between flex ">
+                    <select name="" id="" class="bg-transparent focus:outline-none border-none">
+                      <option value="">United States</option><option value="">Canada</option>
+                      <option value="">China</option><option value="">Nigeria</option>
+                    </select>
+                    <img src="img/Vector01.png" alt="" class="bg-[#F5A950]  rounded-full p-0.5 md:p-2 cursor-pointer">
+                  </div>
+                  </div>
+                  <p class="text-[#3A3A3A] font-semibold text-base text-center lg:text-left mb-6">Top Locations: Manchester, London, Greenwich</p>
+               </div>
+               <!--image-->
+               <div class="flex justify-center flex-1 overflow-hidden">
+                <img class="w-5/6 h-5/6 sm:h-3/4 md:w-full md:h-full lg:h-full lg:w-full" src="/img/unsplash__j2yUlRNoJI.png" alt="">
+               </div> 
+            </div>
+        </section>
+    </header>
+       <!-- social medias-->
+      <section class="py-10 md:mt-10  lg:py-20">
+          <div class="container flex justify-between space-x-5 md:space-x-0  items-center ">
+              <div class=" py-6 px-4">
+                 <img src="/img/Google.png" alt="">
+              </div>
+              <div class=" py-6 px-4">
+                 <img src="/img/facebook.png" alt="">
+              </div>
+              <div  class="shadow-2xl shadow-black rounded-2xl py-6 px-4">
+                <img  src="/img/amazon.png" alt="">
+              </div>
+              <div class=" py-6 px-4">
+                  <img src="/img/Dropbox svg.png" alt="">
+              </div>
+              <div class=" py-6 px-4">
+                 <img src="/img/Group 280.png" alt="">
+              </div>
+          </div>
+      </section>
+       <!--Our Popular Destinations-->
+       <section class="py-10 md:mt-10 lg:py-20">
+      <!-- heading-->
+      <div class="container px-2">
+      <h1 class="text-center font-semibold text-6xl text-[#1C2633]">Our Popular <span class="text-[#EDB370]"> Destinations</span> </h1>
+       <p class="text-center mt-10 text-[#575757] font-bold text-base">Our aim is to provide you with a top-quality tour experience.</p>
+       <!-- cards-->
+       <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 mt-16">
+        <!-- card 1-->
+        <div class="flex flex-col rounded-lg shadow-2xl transform hover:scale-125 hover:bg-opacity-50 transition ease-in-out duration-300 lg:mb-16">
+          <div class="flex flex-col items-center">
+            <img src="/img/unsplash_9PJ6Cmi--j4.png" alt="">
+             <h3 class="mt-5 mb-2 text-lg text-[#4C5254]">Bangkok, Thailand.</h3>
+             <p class="my-5 mx-7 text-sm text-center text-[#434343]">Bangkok is the capital and most populous city of Thailand. It is know in Thai as krung Thep Maha Nakhon or simply Krung Thep.
+              </p>
+          </div>
+       </div>
+        <!-- card 2-->
+        <div class="flex flex-col rounded-lg shadow-2xl transform hover:scale-125 hover:bg-opacity-50 transition ease-in-out duration-300 lg:mb-16">
+          <div class="flex flex-col items-center">
+            <img src="/img/unsplash_lh0n7Rttpjc.png" alt="">
+             <h3 class="mt-5 mb-2 text-lg text-[#4C5254]">Bangkok, Thailand.</h3>
+             <p class="my-5 mx-7 text-sm text-center text-[#434343]">Bangkok is the capital and most populous city of Thailand. It is know in Thai as krung Thep Maha Nakhon or simply Krung Thep.
+              </p>
+          </div>
+        </div>
+         <!-- card 3-->
+         <div class="flex flex-col rounded-lg shadow-2xl transform hover:scale-125 hover:bg-opacity-50 transition ease-in-out duration-300 lg:mb-16">
+          <div class="flex flex-col items-center">
+            <img src="/img/unsplash_dpN2jHAEiYY.png" alt="">
+             <h3 class="mt-5 mb-2 text-lg text-[#4C5254]">Bangkok, Thailand.</h3>
+             <p class="my-5 mx-7 text-sm text-center text-[#434343]">Bangkok is the capital and most populous city of Thailand. It is know in Thai as krung Thep Maha Nakhon or simply Krung Thep.
+              </p>
+          </div>
+        </div>        
+        </div>
+        <!--Arrows-->
+        <div class="hidden lg:flex justify-center space-x-10 cursor-pointer">
+        <div class="py-5 px-6 bg-[#F4F5F7] rounded-lg shadow-xl">
+           <img src="/img/Vector05.png" alt="">
+        </div>
+        <div class="py-5 px-6 bg-[#F4AA51] rounded-lg shadow-lg">
+          <img src="/img/Vector04.png" alt="">
+       </div>
+      </div>
+      </div>
+       </section>
+      
+      <!--How Hotelmania works?-->
+      <section id="service" class="py-10 md:mt-10 lg:py-20">
+        <!-- heading-->
+        <div class="container px-2">
+        <h1 class="text-center font-semibold text-6xl text-[#1C2633]"> How <span class="text-[#F2A852]"> Hotelmania </span>  works?</h1>
+        <!-- cards-->
+        <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-screen-lg gap-16 mt-16">
+        <!-- card 1-->
+        <div class="flex flex-col rounded-lg shadow-2xl lg:mb-16">
+          <div class="flex flex-col items-center">
+            <img class="p-4" src="/img/Group 244.png" alt="">
+             <h3 class="mt-5 mb-2 text-xl font-bold text-[#1B243A]">Sign Up</h3>
+             <p class="my-5 mx-7 text-base text-center font-semibold text-[#6F6F6F]">Hassle-free setup and simple job management from start to finish</p>
+          </div>
+       </div>
+        <!-- card 2-->
+        <div class="flex flex-col rounded-lg shadow-2xl lg:my-8">
+          <div class="flex flex-col items-center">
+            <img class="p-4" src="/img/Group 246.png" alt="">
+             <h3 class="mt-5 mb-2 text-xl font-bold text-[#1B243A]">Search Hotels</h3>
+             <p class="my-5 mx-7 text-base font-semibold text-center text-[#6F6F6F]">Predictable work rates at $65/hour. Ideal for growing Shopify stores</p>
+          </div>
+       </div>
+        <!-- card 3-->
+        <div class="flex flex-col rounded-lg shadow-2xl lg:mt-16">
+          <div class="flex flex-col items-center">
+            <img class="p-4" src="/img/Group 248.png" alt="">
+             <h3 class="mt-5 mb-2 text-xl font-bold text-[#1B243A]">Start Travelling</h3>
+             <p class="my-5 mx-7 text-base text-center font-semibold text-[#6F6F6F]">No more flakey developers, Storetasker developers get things done on time</p>
+          </div>
+       </div>
+        </div>
+        </div>
+      </section>
+
+        <!--Choose your luxurious room-->
+        <section class="py-10 md:mt-10 lg:py-20">
+          <div class="container px-2">
+            <!-- flex container-->
+            <div class="flex justify-center items-center flex-col  md:flex-row space-y-7 lg:space-y-0 md:space-x-10 lg:space-x-0">
+            <div>
+            <!-- heading-->
+            <h1 class="font-semibold text-center md:text-start text-6xl text-[#1C2633]">Choose your <span class="text-[#F2AB5B]"> luxurious </span> room</h1>
+          </div>
+          <div>
+           <p class="text-[#6F6F6F] text-base text-center md:text-start font-semibold">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiss praesentium voluptatum deleniti atque corrupti quos dolores</p> 
+          </div>
+           </div>
+           <!--cards-->
+           <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mt-16">
+            <!--card 1-->
+            <div class="flex flex-col rounded-lg shadow-2xl ">
+              <div class="flex flex-col">
+                <img class="" src="/img/unsplash_emqnSQwQQDo.png" alt="">
+              </div>
+           </div>
+             <!--card 2-->
+             <div class="flex flex-col rounded-lg shadow-2xl">
+              <div class="flex flex-col">
+                <img class="" src="/img/unsplash_b87_egH5mos.png" alt="">
+              </div>
+           </div>
+             <!--card 3-->
+             <div class="flex flex-col rounded-lg shadow-2xl">
+              <div class="flex flex-col">
+                <img class="" src="/img/unsplash_fbG4S32ssd8.png" alt="">
+              </div>
+           </div>
+             <!--card 4-->
+             <div class="flex flex-col rounded-lg shadow-2xl">
+              <div class="flex flex-col">
+                <img class="" src="/img/unsplash_b87_egH5mos.png" alt="">
+              </div>
+           </div>
+           </div>
+           <div class="container py-10 flex justify-between">
+            <!-- dot-->
+            <div class="flex space-x-3 cursor-pointer">
+                <div class="w-6 h-1 rounded-lg bg-[#D9D9D9]"></div>
+                <div class="w-6 h-1 rounded-lg bg-[#F2AA56]"></div>
+                <div class="w-6 h-1 rounded-lg bg-[#D9D9D9]"></div>
+                <div class="w-6 h-1 rounded-lg bg-[#D9D9D9]"></div>
+                <div class="w-6 h-1 rounded-lg bg-[#D9D9D9]"></div>
+            </div>
+            <!--Arrow-->
+            <div>
+             <div class="hidden lg:flex justify-center space-x-10 cursor-pointer">
+              <div class="py-5 px-6 bg-[#F4F5F7] rounded-lg shadow-xl">
+               <img src="/img/Vector05.png" alt="">
+              </div>
+              <div class="py-5 px-6 bg-[#F4AA51] rounded-lg shadow-lg">
+              <img src="/img/Vector04.png" alt="">
+             </div>
+            </div>
+            </div>
+           </div>
+           </div>
+        </section>
+        
+        <!--Get notified you can still join the waitlist-->
+        <section id="about" class="py-10 md:mt-10 lg:py-20 bg-[#F4F5F7] relative">
+          <div class="py-5 md:mt-5 lg:py-10">
+             <!--heading-->
+             <div class="container px-2">
+              <h1 class="text-center font-semibold text-6xl text-[#1F3245]">Get notified you can <br> still join the waitlist</h1>
+              </div>
+              <!--form-->
+              <form class="mt-20 flex justify-center items-center ">
+                <div class="relative bg-white flex items-center rounded-full shadow-2xl shadow-black ">
+                  <input class="ml-2 py-3 px-4 w-full border-none outline-none placeholder-[#C9CCD3]  bg-transparent" type="search" placeholder="Your email address">
+                  <button class="text-white text-lg font-semibold px-10 py-3 bg-[#F4AA51] shadow-2xl rounded-full m-1">Start</button>
+                </div>
+              </form>
+                <!-- icons-->
+                <div class="container hidden lg:block">
+                   <img class="absolute top-0" src="/img/Polygon 1.png" alt="">
+                   <img class="absolute right-3/4 top-2/3" src="/img/Ellipse 101.png" alt="">
+                   <img class="absolute left-3/4 top-2/4" src="/img/Polygon 2.png" alt="">
+                   <img class="absolute top-4 right-44" src="/img/Ellipse 102.png" alt="">
+                   <img class="absolute top-4 right-0" src="/img/Ellipse 103.png" alt="">
+                </div>
+          </div>
+        </section>
+        <!-- What our happy Client say-->
+        <!--reviews-->
+         <!-- heading--> 
+         <section class="py-10 md:mt-10 lg:py-20">
+        <div class="container px-2">
+        <h1 class="text-center font-bold text-6xl text-black">What our happy <span class="text-[#EDA954]"> Client </span> say</h1>
+         <p class="text-center mt-10 text-[#868686] font-bold text-base">Things that make it the best place to start trading</p>
+         <!-- testimonial container -->
+        <div class="flex flex-col mt-24 md:flex-row md:space-x-6">
+        <!--Testimonial 1-->
+        <div class="flex flex-col items-center p-6 space-y-6 shadow-2xl shadow-black rounded-lg md:flex md:w-1/3">
+          <img class="w-16 -mt-14" src="./img/Ellipse 106.png" alt="">
+          <div class="text-[#FF5031]">⭐⭐⭐⭐⭐</div>
+          <h5 class="text-xl font-bold text-black">Robin Ayala Doe</h5>
+          <p  class="text-[#868686] text-base font-semibold">
+            Okay, I’ve found the joy of cooking. It’s the process which my better half does it. There is ncere love than the adoration for sustenance.
+          </p>
+        </div>
+         <!--Testimonial 2-->
+         <div class="hidden flex-col items-center p-6 space-y-6 shadow-2xl shadow-black rounded-lg  md:flex md:w-1/3">
+          <img class="w-16 -mt-14" src="./img/Ellipse 104.png" alt="">
+          <div class="">⭐⭐⭐⭐⭐</div>
+          <h5 class="text-xl font-bold text-black">John De marli</h5>
+          <p class="text-[#868686] text-base font-semibold">
+            any individuals have eaten in this kitchen and have proceeded to lead typical, solid lives. The route to a man’s heart is through his stomach
+          </p>
+        </div>
+         <!--Testimonial 3-->
+         <div class="hidden flex-col items-center p-6 space-y-6 shadow-2xl shadow-black rounded-lg md:flex md:w-1/3">
+          <img class="w-16 -mt-14" src="./img/Ellipse 105.png" alt="">
+          <div class="">⭐⭐⭐⭐⭐</div>
+          <h5 class="text-xl font-bold text-black">Rowhan Smith</h5>
+          <p class="text-[#868686] text-base font-semibold">
+            You don’t need to cook extravaga muddled perfect works of art, simply sustenance from new fixings.
+          </p>
+        </div>
+        </div>
+          <!--Arrow-->
+          <div>
+            <div class="hidden py-20 lg:flex justify-center space-x-10 cursor-pointer">
+             <div class="py-5 px-6 bg-[#F4F5F7] rounded-lg shadow-xl">
+              <img src="/img/Vector05.png" alt="">
+             </div>
+             <div class="py-5 px-6 bg-[#F4AA51] rounded-lg shadow-lg">
+             <img src="/img/Vector04.png" alt="">
+            </div>
+           </div>
+           </div>
+         </div>
+        </section>
+         <!--top-footer-->
+        <footer id="contact">
+         <div>
+          <div class="bg-[#243644] md:mx-40 text-center text-white md:py-14 py-6 md:space-y-20 space-y-10 relative md:-bottom-32" data-aos="zoom-in">
+            <p class="capitalize font-semibold text-[#FDFDFD] text-3xl md:text-6xl">contact us</p>
+            <div class="flex justify-around items-center">
+            <div>
+            <p class="font-semibold md:font-bold text-[#FDFDFD] text-xl md:text-lg">Mail Us:</p>
+            <p class="font-semibold md:font-bold text-[#FDFDFD] text-base">besnik@us.com</p>
+            </div>
+            <div>
+            <p class="font-semibold md:font-bold text-[#FDFDFD] text-xl md:text-lg">Phone:</p>
+            <p class="font-semibold md:font-bold text-[#FDFDFD] text-base">+01 234 5678</p>
+           </div>
+           </div>
+           </div>
+       </div>
+       <!--bottom-fotter-->  
+       <footer class="bg-[#F4F5F7] md:pt-72 pt-10 md:px-52 px-10">
+        <div class="container">
+        <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-20">
+          <div class="space-y-3">
+          <a class="flex title-font font-bold text-xl items-center md:justify-start justify-center text-[#192431]" href=""><span class="underline decoration-[#192431] text-[#192431]">HOTEL</span><span class="underline decoration-[#F2A951] text-[#F2A951]">MANIA</span>
+          </a>
+        <p class="text-base font-bold pr-5 text-[#6F6F6F]">Build your site for free and take as long as you need.</p>
+      </div>
+        <div>
+          <h3 class="text-[#263848] text-base font-bold">Home</h3>
+        <ul class="text-[#6F6F6F] font-semibold text-base">
+         <li>Appirance</li>
+         <li>Content</li>
+         <li>How it work?</li>
+         <li>Sell</li>
+         <li>Guide</li>
+        </ul>
+       </div>
+        <div>
+          <h3 class="text-[#263848] text-base font-bold">Company</h3>
+        <ul class="text-[#6F6F6F] font-semibold text-base">
+         <li>About Us</li>
+         <li>FAQ</li>
+        <li>Statistics</li>
+        <li>Spoke</li>
+        </ul>
+        </div>
+        <div>
+        <h3 class="text-[#263848] text-base font-bold">Help</h3>
+        <ul class="text-[#6F6F6F] font-semibold text-base">
+          <li>How it work?</li>
+          <li>Help Desk</li>
+         <li>Program</li>
+        </ul>
+      </div>
+      </div>
+       <div class="pb-10 text-center space-y-3 text-[#474749]">
+       <div class="pt-20 space-x-5 mb-5 flex items-center justify-center">
+          <img src="/img/Vector00.png" alt=""> 
+          <img src="/img/Vector (1).png" alt=""> 
+          <img src="/img/Vector (2).png" alt=""> 
+          <img src="/img/Vector (3).png" alt=""> 
+       </div>
+       <p class="font-semibold text-base">© HotelMania 2022 Limited</p>
+       </div>
+      </div>
+      </footer>
+    </footer>
+    
+    <script src="app.js"></script>
+</body>
+</html>
